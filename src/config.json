@@ -1,0 +1,30 @@
+{
+  "wifi_prefix": "QVTU",
+  "portal_url": "http://192.168.120.156",
+  "username": "",
+  "password": "",
+  "chrome_channel": "chrome",
+  "browser_headless": true,
+  "login_retry": 3,
+  "login_timeout_sec": 90,
+  "login_cooldown_sec": 60,
+  "offline_poll_sec": 2,
+  "online_heartbeat_sec": 60,
+  "probe_timeout_sec": 3,
+  "offline_confirm_sec": 1,
+  "online_probe_urls": [
+    "http://www.msftconnecttest.com/connecttest.txt",
+    "http://captive.apple.com/hotspot-detect.html",
+    "http://connect.rom.miui.com/generate_204",
+    "http://www.baidu.com"
+  ],
+  "on_window_close": "tray",
+  "ask_on_close": true,
+  "autostart": {
+    "enabled": false,
+    "mode": "task",
+    "delay_sec": 5,
+    "run_as_admin": false
+  },
+  "show_notifications": true
+}

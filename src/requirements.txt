@@ -1,0 +1,9 @@
+# 核心：浏览器自动化（登录用，配合本机已安装的 Chrome/Edge，无需 playwright install）
+playwright>=1.40.0
+
+# 界面与托盘
+pystray>=0.19.5
+pillow>=10.0.0
+
+# 创建开机自启快捷方式 / 计划任务（Windows 专用）
+pywin32>=306; sys_platform == "win32"
