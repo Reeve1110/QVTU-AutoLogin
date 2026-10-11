@@ -1,0 +1,3 @@
+# 版本号命名的历史副本只在本地留存，不进 Git 仓库（仓库只放固定名 AutoLogin.exe + README.md）
+AutoLogin_v*.exe
+*.zip
