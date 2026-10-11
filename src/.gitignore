@@ -1,0 +1,32 @@
+# ---- Python 虚拟环境 / 缓存 ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 打包中间产物与产物 ----
+build/
+dist/
+*.spec
+
+# ---- 运行期数据（本机生成，不入库）----
+logs/
+dumps/
+config.local.json
+
+# ---- 构建 / 测试临时文件 ----
+.build*.log
+.testlogs*.log
+*.log
+fail_*.html
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store

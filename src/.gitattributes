@@ -1,0 +1,8 @@
+# 统一换行符，避免 Windows 上反复出现 LF/CRLF 警告
+* text=auto eol=lf
+
+# 明确标记二进制，Git 不做换行转换
+*.exe binary
+*.ico binary
+*.png binary
+*.upx binary
