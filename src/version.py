@@ -10,7 +10,7 @@ GITEE_URL 为仓库主页，供用户查看说明 / 手动下载新版 exe（程
 
 APP_NAME = "AutoLogin"                 # 程序名（exe / 文件属性）
 APP_TITLE = "AutoLogin 校园网自动登录"   # 界面与文件属性里展示的完整标题
-APP_VERSION = "26.10.6"
+APP_VERSION = "26.10.5"
 CONTACT_WECHAT = "Reeve_1110"
 GITEE_URL = "https://gitee.com/reeve1110/qvtu-auto-login"
 
